@@ -1,0 +1,9 @@
+
+Paymint API 
+User API 
+
+Check if the user is paied
+
+	auth
+		articles 
+		jobs 
