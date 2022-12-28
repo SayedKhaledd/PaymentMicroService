@@ -6,6 +6,7 @@ const router = require("express").Router()
 const Publishable_Key = 'pk_test_51MHSKdAdItXt1UKPixMrZkq9LseAGnGdL1BCk1hi7815YXMOLI1RHf1s6DsOwd4Q6zwCzLrp8DjF7JR1JrvaHUZe00eslzqnn1'
 const Secret_Key = 'Your_Secret_Key'
 const paymentRoute = require("./routes/payment.route")
+const areticlesRoute = require("./routes/articels.route")
 express.static('./public')
 app.use(express.static('public'))
 
@@ -15,6 +16,7 @@ app.use(express.json())
 
 
 app.use("/api",  paymentRoute)
+app.use("/api",  areticlesRoute)
 
 
 
