@@ -18,7 +18,10 @@ a microservice to handle payments
 
 
 > Returns:
-* Customer's data
+If the user subscribed
+  * Articles data
+Otherwise 
+  * redirect to payment form
 
 
 
