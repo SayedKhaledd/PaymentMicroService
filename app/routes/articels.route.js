@@ -1,7 +1,7 @@
 const router = require("express").Router()
 const Articles = require('../controllers/articles')
 
-router.get("/articles",  Articles.getArticles)
+router.post("/articles",  Articles.getArticles)
 
 
 
